@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: rgb(24, 110, 145);
+}
+.fs-14 {
+  font-size: 14px;
+}
+.fs-12 {
+  font-size: 12px !important;
+}
+.option1 {
+  color: #ff8ea5 !important;
+}
+.option2 {
+  color: #ffb38c !important;
+}
+.btnDelet {
+  font-size: 20px !important;
+  border: 0 !important;
+  padding: 0 10px !important;
+  background: none !important;
+}
+.iconDelet {
+  fill: red !important;
+}
+.card-project {
+  transition: all 0.4s ease;
+}
+.card-project:hover {
+  transform: translateY(-8px);
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.4);
+}
+
+input[type="file"] {
+  background: transparent !important;
+  border: none !important;
+  font-size: 12px;
+  outline: none;
+}
+input[type="file"]::file-selector-button {
+  background: none;
+  border: none;
+  font-size: 13px;
+  cursor: pointer;
+  color: #4883e7;
+  font-weight: bold;
+}
+
+input[type="date"] {
+  padding: 8px 12px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  background-color: #f8fafc;
+  color: #334155;
+  outline: none;
+  font-family: inherit;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  cursor: pointer;
+  opacity: 0.7;
+  filter: brightness(0.8);
+}
+
+input[type="date"]:focus {
+  border-color: #4883e7;
+  background-color: #fff;
+  box-shadow: 0 0 0 3px rgba(72, 131, 231, 0.15);
+}
+.btn-Comment {
+  background: none !important;
+  border: 0 !important;
+  color: #4883e7 !important;
+  font-size: 12px !important;
+}
+.btn-book {
+  background: none !important;
+  color: #4883e7 !important;
+  border: 0 !important;
+  font-size: 13px !important;
+}
+.btn-delet {
+  color: red !important;
+}
